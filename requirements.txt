@@ -1,7 +1,6 @@
 Streamlit
 pandas
 numpy
-pickle
 scipy 
 sklearn 
 
