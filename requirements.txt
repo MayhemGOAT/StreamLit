@@ -1,4 +1,4 @@
-Streamlit, version 1.32.0
+Streamlit version 1.32.0
 pandas
 numpy
 pickle
