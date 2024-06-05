@@ -21,11 +21,9 @@ def crop_spectrum(wavelengths, intensities, region=(700, 1800)):
     return wavelengths[mask], intensities[mask]
 
 def whittaker_hayes_despike(intensities, threshold=3):
-    # Your despike logic here...
     return corrected_intensities
 
 def aspls_baseline(intensities, lam=1e5, p=0.01):
-    # Your baseline logic here...
     return intensities - W
 
 def min_max_normalise(intensities):
@@ -38,7 +36,7 @@ def preprocess_pipeline(wavelengths, intensities):
     # Convert wavelengths to numeric, handling non-numeric values
     wavelengths = pd.to_numeric(wavelengths, errors='coerce')
     if wavelengths.isna().any():
-        wavelengths = wavelengths.fillna(method='ffill')  # or any method you prefer
+        wavelengths = wavelengths.fillna(method='ffill')  
 
     wavelengths, intensities = crop_spectrum(wavelengths, intensities)
     intensities = whittaker_hayes_despike(intensities)
