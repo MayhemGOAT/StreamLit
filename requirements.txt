@@ -1,6 +1,5 @@
-streamlit version 1.32.0
-pandas version 2.2.1
-numpy version 1.26.4
-pickle version: 4.0
-scipy version 1.12.0
-sklearn version 1.3.2
+Streamlit
+pandas
+numpy
+scipy
+scikit-learn
