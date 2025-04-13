@@ -24,6 +24,19 @@ This repo contains modular Streamlit apps and utilities to support visualization
 - **Joblib** – Model loading
 
 ---
+## 🖼️ Demo Screenshots
+
+### 📊 Raman Spectrum Visualization & File Upload
+
+![Spectrum Upload & Visualization](spectrum_upload.png.png)
+
+---
+
+### 🧠 Substrain Classification + Variant Overview
+
+![Omicron Prediction + Variant Info](variant_info.png.png)
+
+---
 
 ## 🚀 Getting Started
 
