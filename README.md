@@ -29,13 +29,13 @@ This repo contains modular Streamlit apps and utilities to support visualization
 
 ### 📊 Raman Spectrum Visualization & File Upload
 
-![Spectrum Upload & Visualization](spectrum_upload.png)
+![Spectrum Upload & Visualization](spectrum_upload)
 
 ---
 
 ### 🧠 Substrain Classification + Variant Overview
 
-![Omicron Prediction + Variant Info](variant_info.png)
+![Omicron Prediction + Variant Info](variant_info)
 
 ---
 
